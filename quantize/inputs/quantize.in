@@ -1,0 +1,13 @@
+// The program input for quantize/src/main.leo
+[float_add]
+a: Float = Float{scale: 26u32, int_value: 6710885u64};
+b: Float = Float{scale: 25u32, int_value: 6710885u64};
+[float_sub]
+b: Float = Float{scale: 25u32, int_value: 6710885u64};
+a: Float = Float{scale: 26u32, int_value: 6710885u64};
+[float_mul]
+a: Float = Float{scale: 26u32, int_value: 6710885u64};
+b: Float = Float{scale: 25u32, int_value: 6710885u64};
+[float_div]
+a: Float = Float{scale: 26u32, int_value: 6710885u64};
+b: Float = Float{scale: 25u32, int_value: 6710885u64};

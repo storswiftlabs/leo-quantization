@@ -1,5 +1,5 @@
 _BASE = 2
-_MAXIMUM_BIT = 23
+_MAXIMUM_BIT = 23 # Float 23bit, Double is 52bit
 _MINIMUM_BASE_POW = 256
 
 
