@@ -39,8 +39,8 @@ vi inputs/quantize.in
 
 [1] Maxime Labonne. Introduction to Weight Quantization, https://towardsdatascience.com/introduction-to-weight-quantization-2494701b9c0c, 2023.
 
-[2] LIU, Xuanming, et al. Evaluate and Guard the Wisdom of Crowds: Zero Knowledge Proofs for Crowdsourcing Truth Inference. *arXiv preprint arXiv:2308.00985*, 2023.
+[2] LIU, Xuanming, et al. Evaluate and Guard the Wisdom of Crowds: Zero Knowledge Proofs for Crowdsourcing Truth Inference. arXiv preprint arXiv:2308.00985, 2023.
 
-[3] Fixed-point arithmetic, ****https://en.wikipedia.org/wiki/Fixed-point_arithmetic#Operations
+[3] Fixed-point arithmetic, https://en.wikipedia.org/wiki/Fixed-point_arithmetic#Operations
 
 [4] zkTI, https://github.com/Blockchain-Research-Center/zkTI.
