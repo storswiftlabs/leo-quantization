@@ -1,6 +1,6 @@
 import unittest
 
-from quantization.float import new, Float, dequantization
+from ..float import new, Float, dequantization, get_float_list
 
 
 class TestQuantization(unittest.TestCase):
@@ -69,3 +69,11 @@ class TestQuantization(unittest.TestCase):
         print("dequantized_value_mul", dequantized_value_mul)
         dequantized_value_div = dequantization(24, 8388607) # 0.1/0.2 = 0.5
         print("dequantized_value_div",dequantized_value_div)
+
+    def test_get_float_list(self):
+        real_value_list = [0.1, 0.2, 0.3, 0.12, 0.14999999, 0.9999999]
+        scale_list, value_list = get_float_list(real_value_list)
+        print("scale_list", scale_list)
+        print("value_list", value_list)
+        self.assertEqual([26, 25, 24, 26, 25, 23], scale_list)
+        self.assertEqual([6710885, 6710885, 5033164, 8053062, 5033163, 8388606], value_list)

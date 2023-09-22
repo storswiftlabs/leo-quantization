@@ -61,6 +61,18 @@ def new(scale: int, value: int, real_value: float):
     f.real_value = real_value
     return f
 
+def get_float_list(real_list: list):
+    # Enter a list of the original float, generating the quantized scale and value list
+    quantized_scale = []
+    quantized_value = []
+
+    for real_value in real_list:
+        f = Float(real_value)
+        quantized_scale.append(f.scale)
+        quantized_value.append(f.value)
+    return quantized_scale, quantized_value
+
+
 
 if __name__ == '__main__':
     pass
